@@ -1,0 +1,96 @@
+@charset "UTF-8";
+*, *:before, *:after {
+  box-sizing: border-box;
+  /*outline: 1px solid;*/
+}
+
+body {
+  font-family: "Castoro", serif;
+  line-height: 1.5;
+  font-size: 24px;
+}
+
+.container {
+  /* 使用 max-width 可以自適應瀏覽器畫面寬度*/
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.banner {
+  text-align: center;
+  margin-top: 160px;
+}
+.banner h1, .banner h2 {
+  font-size: 128px;
+  letter-spacing: 0.12em;
+}
+.banner .title-top {
+  text-align: left;
+}
+.banner .title-bottom {
+  text-align: right;
+}
+
+.introduction-bg {
+  background: #EFEFEF;
+}
+.introduction .text {
+  width: 50%;
+  font-size: 32px;
+  padding: 48px 0;
+  margin-left: auto;
+}
+
+.content .experience {
+  width: 50%;
+  padding-bottom: 16px;
+  margin: 80px 0px 160px 0px;
+}
+.content .item {
+  margin-bottom: 40px;
+}
+.content h3 {
+  color: #AE0000;
+  font-size: 40px;
+  margin-bottom: 16px;
+  border-bottom: 3px solid #AE0000;
+  margin-bottom: 16px;
+}
+.content .mb-8 {
+  margin-bottom: 8px;
+}
+.content .mb-12 {
+  margin-bottom: 12px;
+}
+.content .mb-16 {
+  margin-bottom: 16px;
+}
+.content a {
+  color: #000;
+  text-decoration: none;
+}
+.content a:hover {
+  color: #AE0000;
+}
+.content .year {
+  font-style: italic;
+  font-size: 20px;
+  color: #949494;
+}
+
+.footer {
+  background: #000;
+  padding: 64px 0px 64px 0px;
+}
+.footer .icon-group {
+  text-align: center;
+}
+.footer li {
+  display: inline;
+  margin: 0px 20px 0px 20px;
+}/*# sourceMappingURL=all.css.map */
